@@ -124,7 +124,7 @@
     "name": "Dutch Blitz",
     "subtitle": "A vonderful goot game!",
     "icon": "🌷",
-    "iconURL": "https://raw.githubusercontent.com/nathan425/scorekeeperapp/main/icons/dutchblitz.png",
+    "iconURL": ,
     "tags": ["Card", "Family", "Party"],
     "numberOfPlayers": 4,
     "minPlayers": 2,
