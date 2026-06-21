@@ -25,6 +25,7 @@
     "tracksIndividualRounds": true,
     "roundColumnLabel": "PHASE",
     "rulesPDFName": "phase10guide",
+    "rulesURL": "https://raw.githubusercontent.com/nathan425/scorekeeperapp/main/rules/phase10.pdf",
     "countsDownRounds": false,
     "isPhaseBasedGame": true,
     "scoringReference": [
@@ -105,6 +106,7 @@
     "tracksIndividualRounds": false,
     "roundColumnLabel": "ROUND",
     "rulesPDFName": "codenamesrules",
+    "rulesURL": "https://raw.githubusercontent.com/nathan425/scorekeeperapp/main/rules/codenames.pdf",
     "countsDownRounds": false,
     "isPhaseBasedGame": false,
     "scoringReference": [],
@@ -143,6 +145,7 @@
     "tracksIndividualRounds": false,
     "roundColumnLabel": "ROUND",
     "rulesPDFName": "dutchblitzrules",
+    "rulesURL": "https://raw.githubusercontent.com/nathan425/scorekeeperapp/main/rules/dutchblitz.pdf",
     "countsDownRounds": false,
     "isPhaseBasedGame": false,
     "scoringReference": [
