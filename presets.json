@@ -184,7 +184,7 @@
   },
   {
   "id":                  "60000000-0000-0000-0000-000000000006",
-  "name":                "Rummy",
+  "name":                "Gin Rummy",
   "numberOfPlayers":     4,
   "countdownTimer":      false,
   "winCondition":        "Points reached",
@@ -195,6 +195,10 @@
   "autoRotateDealer":    true,
   "minPlayers":          2,
   "maxPlayers":          6,
-  "playerRange": "2–6 players"
+  "playerRange": "2–6 players",
+  "icon": "🍹",
+  "subtitle": "The classic strategic card game"
+
+
 }
 ]
