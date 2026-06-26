@@ -181,5 +181,21 @@
     "allowNegativeScores": true,
     "autoRotateDealer": false,
     "tracksIndividualRounds": false,
-  }
+  },
+  {
+  "id":                  "60000000-0000-0000-0000-000000000006",
+  "name":                "Rummy",
+  "numberOfPlayers":     4,
+  "countdownTimer":      false,
+  "winCondition":        "Points reached",
+  "numberOfRounds":      99,
+  "pointsToReach":       100,
+  "scoreDirection":      "High wins",
+  "allowNegativeScores": false,
+  "autoRotateDealer":    true,
+  "minPlayers":          2,
+  "maxPlayers":          6,
+  "playerRange": "2–6 players",
+
+}
 ]
