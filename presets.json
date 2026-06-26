@@ -180,7 +180,7 @@
     "scoreDirection": "High wins",
     "allowNegativeScores": true,
     "autoRotateDealer": false,
-    "tracksIndividualRounds": false,
+    "tracksIndividualRounds": false
   },
   {
   "id":                  "60000000-0000-0000-0000-000000000006",
@@ -195,7 +195,6 @@
   "autoRotateDealer":    true,
   "minPlayers":          2,
   "maxPlayers":          6,
-  "playerRange": "2–6 players",
-
+  "playerRange": "2–6 players"
 }
 ]
