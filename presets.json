@@ -3,90 +3,54 @@
     "id": "10000000-0000-0000-0000-000000000001",
     "name": "Phase 10",
     "subtitle": "Move through the ranks first to win.",
-    "icon": "🎮",
-    "iconURL": "https://raw.githubusercontent.com/nathan425/scorekeeperapp/main/icons/phase10.png",
-    "tags": ["Card", "Family"],
+    "iconAssetName": "phase10-icon",
+    "tags": [
+      "Card",
+      "Family"
+    ],
     "numberOfPlayers": 4,
     "minPlayers": 2,
     "maxPlayers": 6,
     "playerRange": "2-6 players",
     "countdownTimer": false,
-    "countdownMinutes": 0,
-    "countdownSeconds": 0,
-    "gameTimer": false,
     "winCondition": "Points reached",
     "numberOfRounds": 10,
     "pointsToReach": 10,
     "scoreDirection": "Low wins",
     "allowNegativeScores": false,
     "autoRotateDealer": true,
-    "isCustom": false,
-    "usesSimpleWinLoss": false,
     "tracksIndividualRounds": true,
     "roundColumnLabel": "PHASE",
     "rulesPDFName": "phase10guide",
-    "rulesURL": "https://raw.githubusercontent.com/nathan425/scorekeeperapp/main/rules/phase10.pdf",
-    "countsDownRounds": false,
     "isPhaseBasedGame": true,
     "scoringReference": [
-      { "label": "Numbered 1–9", "value": "5 pts each" },
-      { "label": "Numbered 10–12", "value": "10 pts each" },
-      { "label": "Skip cards", "value": "15 pts each" },
-      { "label": "Wild cards", "value": "25 pts each" }
-    ],
-    "playerCountIcon": "person.2.fill",
-    "dealerIcon": "D",
-    "dealerBackgroundColor": "#34c759",
-    "isTeamGame": false,
-    "numberOfTeams": 2,
-    "teamNames": [],
-    "teamIcons": [],
-    "teamColors": []
-  },
-  {
-    "id": "20000000-0000-0000-0000-000000000002",
-    "name": "Catan",
-    "subtitle": "Develop your island of Catan.",
-    "icon": "🎮",
-    "iconURL": "https://raw.githubusercontent.com/nathan425/scorekeeperapp/main/icons/catan.png",
-    "tags": ["Board", "Strategy"],
-    "numberOfPlayers": 4,
-    "minPlayers": 3,
-    "maxPlayers": 4,
-    "playerRange": "3-4 players",
-    "countdownTimer": false,
-    "countdownMinutes": 0,
-    "countdownSeconds": 0,
-    "gameTimer": false,
-    "winCondition": "Points reached",
-    "numberOfRounds": 1,
-    "pointsToReach": 10,
-    "scoreDirection": "High wins",
-    "allowNegativeScores": false,
-    "autoRotateDealer": false,
-    "isCustom": false,
-    "usesSimpleWinLoss": false,
-    "tracksIndividualRounds": false,
-    "roundColumnLabel": "ROUND",
-    "countsDownRounds": false,
-    "isPhaseBasedGame": false,
-    "scoringReference": [],
-    "playerCountIcon": "person.3.fill",
-    "dealerIcon": "D",
-    "dealerBackgroundColor": "#34c759",
-    "isTeamGame": false,
-    "numberOfTeams": 2,
-    "teamNames": [],
-    "teamIcons": [],
-    "teamColors": []
+      {
+        "label": "Numbered 1–9",
+        "value": "5 pts each"
+      },
+      {
+        "label": "Numbered 10–12",
+        "value": "10 pts each"
+      },
+      {
+        "label": "Skip cards",
+        "value": "15 pts each"
+      },
+      {
+        "label": "Wild cards",
+        "value": "25 pts each"
+      }
+    ]
   },
   {
     "id": "30000000-0000-0000-0000-000000000003",
     "name": "Codenames",
     "subtitle": "Find the hidden agents.",
-    "icon": "🎮",
-    "iconURL": "https://raw.githubusercontent.com/nathan425/scorekeeperapp/main/icons/codenames.png",
-    "tags": ["Party", "Team"],
+    "iconAssetName": "codenames-icon",
+    "tags": [
+      "Party",
+      "Team"
+    ],
     "numberOfPlayers": 2,
     "minPlayers": 2,
     "maxPlayers": 2,
@@ -94,111 +58,1469 @@
     "countdownTimer": true,
     "countdownMinutes": 3,
     "countdownSeconds": 0,
-    "gameTimer": false,
     "winCondition": "Points reached",
     "numberOfRounds": 7,
     "pointsToReach": 4,
     "scoreDirection": "High wins",
     "allowNegativeScores": false,
     "autoRotateDealer": false,
-    "isCustom": false,
     "usesSimpleWinLoss": true,
     "tracksIndividualRounds": false,
-    "roundColumnLabel": "ROUND",
     "rulesPDFName": "codenamesrules",
-    "rulesURL": "https://raw.githubusercontent.com/nathan425/scorekeeperapp/main/rules/codenames.pdf",
-    "countsDownRounds": false,
-    "isPhaseBasedGame": false,
-    "scoringReference": [],
     "playerCountIcon": "person.3.fill",
-    "dealerIcon": "D",
-    "dealerBackgroundColor": "#34c759",
     "isTeamGame": true,
     "numberOfTeams": 2,
-    "teamNames": ["Team Red", "Team Blue"],
-    "teamIcons": ["🔴", "🔵"],
-    "teamColors": ["#ef4e3a", "#007aff"]
+    "teamNames": [
+      "Team Red",
+      "Team Blue"
+    ],
+    "teamIcons": [
+      "🔴",
+      "🔵"
+    ],
+    "teamColors": [
+      "#ef4e3a",
+      "#007aff"
+    ]
   },
   {
     "id": "40000000-0000-0000-0000-000000000004",
     "name": "Dutch Blitz",
     "subtitle": "A vonderful goot game!",
     "icon": "🌷",
-    "tags": ["Card", "Family", "Party"],
+    "tags": [
+      "Card",
+      "Family",
+      "Party"
+    ],
     "numberOfPlayers": 4,
     "minPlayers": 2,
     "maxPlayers": 8,
     "playerRange": "2-4 players, up to 8 with two decks",
     "countdownTimer": false,
-    "countdownMinutes": 0,
-    "countdownSeconds": 0,
-    "gameTimer": false,
     "winCondition": "Points reached",
     "numberOfRounds": 99,
     "pointsToReach": 75,
     "scoreDirection": "High wins",
     "allowNegativeScores": true,
     "autoRotateDealer": false,
-    "isCustom": false,
-    "usesSimpleWinLoss": false,
     "tracksIndividualRounds": false,
-    "roundColumnLabel": "ROUND",
     "rulesPDFName": "dutchblitzrules",
-    "rulesURL": "https://raw.githubusercontent.com/nathan425/scorekeeperapp/main/rules/dutchblitz.pdf",
-    "countsDownRounds": false,
-    "isPhaseBasedGame": false,
     "scoringReference": [
-      { "label": "Cards played to Dutch Piles", "value": "+1 pt each" },
-      { "label": "Cards left in Blitz Pile", "value": "−2 pts each" }
-    ],
-    "playerCountIcon": "person.2.fill",
-    "dealerIcon": "D",
-    "dealerBackgroundColor": "#34c759",
-    "isTeamGame": false,
-    "numberOfTeams": 2,
-    "teamNames": [],
-    "teamIcons": [],
-    "teamColors": []
+      {
+        "label": "Cards played to Dutch Piles",
+        "value": "+1 pt each"
+      },
+      {
+        "label": "Cards left in Blitz Pile",
+        "value": "−2 pts each"
+      }
+    ]
   },
   {
     "id": "50000000-0000-0000-0000-000000000005",
-    "name": "Ticket to Ride",
-    "subtitle": "Score the most points by claiming routes",
-    "iconURL": "https://raw.githubusercontent.com/nathan425/scorekeeperapp/main/icons/tickettoride.png",
-    "tags": ["Board", "Strategy", "Family"],
+    "name": "Yahtzee",
+    "subtitle": "Roll for the best combinations.",
+    "icon": "🎲",
+    "tags": [
+      "Dice",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 1,
+    "maxPlayers": 10,
+    "playerRange": "1+ players",
+    "countdownTimer": false,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 13,
+    "pointsToReach": 0,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Three/Four of a Kind",
+        "value": "Sum of all dice"
+      },
+      {
+        "label": "Full House",
+        "value": "25 pts"
+      },
+      {
+        "label": "Small Straight",
+        "value": "30 pts"
+      },
+      {
+        "label": "Large Straight",
+        "value": "40 pts"
+      },
+      {
+        "label": "Yahtzee",
+        "value": "50 pts"
+      }
+    ]
+  },
+  {
+    "id": "60000000-0000-0000-0000-000000000006",
+    "name": "Rummy",
+    "subtitle": "Collect sets and runs.",
+    "icon": "🃏",
+    "tags": [
+      "Card",
+      "Family"
+    ],
     "numberOfPlayers": 4,
     "minPlayers": 2,
-    "maxPlayers": 5,
-    "playerRange": "2–5 players",
+    "maxPlayers": 6,
+    "playerRange": "2-6 players",
     "countdownTimer": false,
-    "countdownMinutes": 0,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 500,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Number cards",
+        "value": "Face value"
+      },
+      {
+        "label": "Face cards",
+        "value": "10 pts each"
+      },
+      {
+        "label": "Aces",
+        "value": "1 or 11 pts"
+      }
+    ]
+  },
+  {
+    "id": "70000000-0000-0000-0000-000000000007",
+    "name": "Gin Rummy",
+    "subtitle": "Knock with the lowest deadwood.",
+    "icon": "🃏",
+    "tags": [
+      "Card",
+      "Strategy"
+    ],
+    "numberOfPlayers": 2,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playerRange": "2 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 100,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Gin bonus",
+        "value": "25 pts"
+      },
+      {
+        "label": "Undercut bonus",
+        "value": "25 pts"
+      },
+      {
+        "label": "Deadwood",
+        "value": "Difference in pts"
+      }
+    ]
+  },
+  {
+    "id": "80000000-0000-0000-0000-000000000008",
+    "name": "Five Crowns",
+    "subtitle": "The five-suited rummy game.",
+    "icon": "👑",
+    "tags": [
+      "Card",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 1,
+    "maxPlayers": 7,
+    "playerRange": "1-7 players",
+    "countdownTimer": false,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 11,
+    "pointsToReach": 0,
+    "scoreDirection": "Low wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Number cards 3–10",
+        "value": "Face value"
+      },
+      {
+        "label": "Face cards",
+        "value": "11–13 pts"
+      },
+      {
+        "label": "Wild cards",
+        "value": "20 pts"
+      },
+      {
+        "label": "Jokers",
+        "value": "50 pts"
+      }
+    ]
+  },
+  {
+    "id": "90000000-0000-0000-0000-000000000009",
+    "name": "Farkle",
+    "subtitle": "Press your luck with the dice.",
+    "icon": "🎲",
+    "tags": [
+      "Dice",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playerRange": "2+ players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 10000,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Single 1",
+        "value": "100 pts"
+      },
+      {
+        "label": "Single 5",
+        "value": "50 pts"
+      },
+      {
+        "label": "Three 1s",
+        "value": "1000 pts"
+      },
+      {
+        "label": "Three of a kind",
+        "value": "100 × face"
+      }
+    ]
+  },
+  {
+    "id": "a0000000-0000-0000-0000-00000000000a",
+    "name": "Hearts",
+    "subtitle": "Avoid the hearts and the Queen.",
+    "icon": "♥️",
+    "tags": [
+      "Card",
+      "Strategy"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playerRange": "3-6 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 100,
+    "scoreDirection": "Low wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Each Heart",
+        "value": "1 pt"
+      },
+      {
+        "label": "Queen of Spades",
+        "value": "13 pts"
+      },
+      {
+        "label": "Shoot the Moon",
+        "value": "26 pts to others"
+      }
+    ]
+  },
+  {
+    "id": "b0000000-0000-0000-0000-00000000000b",
+    "name": "Skip-Bo",
+    "subtitle": "Empty your stockpile first.",
+    "icon": "🔢",
+    "tags": [
+      "Card",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playerRange": "2-6 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 500,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Each stockpile card left (opponents)",
+        "value": "5 pts to winner"
+      },
+      {
+        "label": "Emptying stockpile",
+        "value": "25 pt bonus"
+      }
+    ]
+  },
+  {
+    "id": "c0000000-0000-0000-0000-00000000000c",
+    "name": "Canasta",
+    "subtitle": "Build melds and canastas.",
+    "icon": "🃏",
+    "tags": [
+      "Card",
+      "Strategy"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playerRange": "2-6 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 5000,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": true,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Natural canasta",
+        "value": "500 pts"
+      },
+      {
+        "label": "Mixed canasta",
+        "value": "300 pts"
+      },
+      {
+        "label": "Going out",
+        "value": "100 pts"
+      },
+      {
+        "label": "Red threes (each)",
+        "value": "100 pts"
+      }
+    ]
+  },
+  {
+    "id": "d0000000-0000-0000-0000-00000000000d",
+    "name": "Pinochle",
+    "subtitle": "Meld and take tricks.",
+    "icon": "🃏",
+    "tags": [
+      "Card",
+      "Strategy"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playerRange": "2-4 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 1000,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Pinochle (J♦ + Q♠)",
+        "value": "40 pts"
+      },
+      {
+        "label": "Run in trump",
+        "value": "150 pts"
+      },
+      {
+        "label": "Aces around",
+        "value": "100 pts"
+      }
+    ]
+  },
+  {
+    "id": "e0000000-0000-0000-0000-00000000000e",
+    "name": "Mexican Train",
+    "subtitle": "Lowest pip count wins.",
+    "icon": "🁫",
+    "tags": [
+      "Family",
+      "Strategy"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playerRange": "2-8 players",
+    "countdownTimer": false,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 13,
+    "pointsToReach": 0,
+    "scoreDirection": "Low wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Each domino left in hand",
+        "value": "Sum of pips"
+      },
+      {
+        "label": "Double-blank",
+        "value": "0 or 50 pts (house rule)"
+      }
+    ]
+  },
+  {
+    "id": "f0000000-0000-0000-0000-00000000000f",
+    "name": "Quiddler",
+    "subtitle": "Spell words, score letters.",
+    "icon": "🔤",
+    "tags": [
+      "Card",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "playerRange": "1-8 players",
+    "countdownTimer": false,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 8,
+    "pointsToReach": 0,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": true,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Letter cards",
+        "value": "Printed value"
+      },
+      {
+        "label": "Most words bonus",
+        "value": "10 pts"
+      },
+      {
+        "label": "Longest word bonus",
+        "value": "10 pts"
+      }
+    ]
+  },
+  {
+    "id": "11000000-0000-0000-0000-000000000010",
+    "name": "Golf",
+    "subtitle": "Low score over nine holes.",
+    "icon": "⛳",
+    "tags": [
+      "Card",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playerRange": "2-8 players",
+    "countdownTimer": false,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 9,
+    "pointsToReach": 0,
+    "scoreDirection": "Low wins",
+    "allowNegativeScores": true,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "roundColumnLabel": "HOLE",
+    "scoringReference": [
+      {
+        "label": "Number cards",
+        "value": "Face value"
+      },
+      {
+        "label": "King",
+        "value": "0 pts"
+      },
+      {
+        "label": "Matched pair (column)",
+        "value": "0 pts"
+      }
+    ]
+  },
+  {
+    "id": "12000000-0000-0000-0000-000000000011",
+    "name": "Crazy Eights",
+    "subtitle": "Shed your cards first.",
+    "icon": "8️⃣",
+    "tags": [
+      "Card",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playerRange": "2-6 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 100,
+    "scoreDirection": "Low wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Each 8 left in hand",
+        "value": "50 pts"
+      },
+      {
+        "label": "Face cards",
+        "value": "10 pts"
+      },
+      {
+        "label": "Number cards",
+        "value": "Face value"
+      }
+    ]
+  },
+  {
+    "id": "13000000-0000-0000-0000-000000000012",
+    "name": "Liverpool Rummy",
+    "subtitle": "Complete every contract.",
+    "icon": "🃏",
+    "tags": [
+      "Card",
+      "Strategy"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playerRange": "3-8 players",
+    "countdownTimer": false,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 7,
+    "pointsToReach": 0,
+    "scoreDirection": "Low wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "roundColumnLabel": "CONTRACT",
+    "scoringReference": [
+      {
+        "label": "Number cards",
+        "value": "Face value"
+      },
+      {
+        "label": "Face cards",
+        "value": "10 pts"
+      },
+      {
+        "label": "Aces",
+        "value": "15 pts"
+      }
+    ]
+  },
+  {
+    "id": "14000000-0000-0000-0000-000000000013",
+    "name": "Tonk",
+    "subtitle": "Fast knock-and-spread rummy.",
+    "icon": "🃏",
+    "tags": [
+      "Card",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playerRange": "2-6 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 100,
+    "scoreDirection": "Low wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Face cards",
+        "value": "10 pts"
+      },
+      {
+        "label": "Aces",
+        "value": "1 pt"
+      },
+      {
+        "label": "Number cards",
+        "value": "Face value"
+      }
+    ]
+  },
+  {
+    "id": "15000000-0000-0000-0000-000000000014",
+    "name": "Tripoley",
+    "subtitle": "Poker, hearts, and Michigan rummy.",
+    "icon": "🎟️",
+    "tags": [
+      "Card",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 3,
+    "maxPlayers": 9,
+    "playerRange": "3-9 players",
+    "countdownTimer": false,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 10,
+    "pointsToReach": 0,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Chips per pot card",
+        "value": "Varies"
+      },
+      {
+        "label": "Kitty",
+        "value": "Won by first to go out"
+      }
+    ]
+  },
+  {
+    "id": "16000000-0000-0000-0000-000000000015",
+    "name": "Kings in the Corner",
+    "subtitle": "Empty your hand to the layout.",
+    "icon": "🤴",
+    "tags": [
+      "Card",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playerRange": "2-4 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 100,
+    "scoreDirection": "Low wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Each card left in hand",
+        "value": "1 pt"
+      },
+      {
+        "label": "Each King left in hand",
+        "value": "10 pts"
+      }
+    ]
+  },
+  {
+    "id": "17000000-0000-0000-0000-000000000016",
+    "name": "Continental Rummy",
+    "subtitle": "Sets and runs over many rounds.",
+    "icon": "🃏",
+    "tags": [
+      "Card",
+      "Family"
+    ],
+    "numberOfPlayers": 6,
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "playerRange": "2-12 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 100,
+    "scoreDirection": "Low wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Number cards",
+        "value": "Face value"
+      },
+      {
+        "label": "Face cards",
+        "value": "10 pts"
+      },
+      {
+        "label": "Jokers",
+        "value": "15 pts"
+      }
+    ]
+  },
+  {
+    "id": "18000000-0000-0000-0000-000000000017",
+    "name": "Rummikub",
+    "subtitle": "Tiles, not cards — first out wins.",
+    "icon": "🔲",
+    "tags": [
+      "Board",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playerRange": "2-4 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 500,
+    "scoreDirection": "Low wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Tiles left in hand (winner gains)",
+        "value": "Sum of tile values"
+      },
+      {
+        "label": "Joker left in hand",
+        "value": "30 pts"
+      }
+    ]
+  },
+  {
+    "id": "1a000000-0000-0000-0000-000000000019",
+    "name": "Boggle",
+    "subtitle": "Find words before the timer ends.",
+    "icon": "🔠",
+    "tags": [
+      "Family",
+      "Party"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "playerRange": "1+ players",
+    "countdownTimer": true,
+    "countdownMinutes": 3,
     "countdownSeconds": 0,
-    "gameTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 100,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "3–4 letter words",
+        "value": "1 pt"
+      },
+      {
+        "label": "5 letters",
+        "value": "2 pts"
+      },
+      {
+        "label": "6 letters",
+        "value": "3 pts"
+      },
+      {
+        "label": "7 letters",
+        "value": "5 pts"
+      },
+      {
+        "label": "8+ letters",
+        "value": "11 pts"
+      }
+    ]
+  },
+  {
+    "id": "1b000000-0000-0000-0000-00000000001a",
+    "name": "Scattergories",
+    "subtitle": "Unique answers beat the clock.",
+    "icon": "📝",
+    "tags": [
+      "Party",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playerRange": "2-6 players",
+    "countdownTimer": true,
+    "countdownMinutes": 3,
+    "countdownSeconds": 0,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 3,
+    "pointsToReach": 0,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Unique valid answer",
+        "value": "1 pt"
+      },
+      {
+        "label": "Multi-word matching letter",
+        "value": "2 pts (house rule)"
+      }
+    ]
+  },
+  {
+    "id": "1c000000-0000-0000-0000-00000000001b",
+    "name": "Taboo",
+    "subtitle": "Get the word out without the buzz.",
+    "icon": "🙊",
+    "tags": [
+      "Party",
+      "Team"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "playerRange": "4+ players, 2 teams",
+    "countdownTimer": true,
+    "countdownMinutes": 1,
+    "countdownSeconds": 0,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 50,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": true,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "isTeamGame": true,
+    "numberOfTeams": 2,
+    "teamNames": [
+      "Team 1",
+      "Team 2"
+    ],
+    "scoringReference": [
+      {
+        "label": "Correct guess",
+        "value": "1 pt"
+      },
+      {
+        "label": "Taboo word used",
+        "value": "−1 pt"
+      }
+    ]
+  },
+  {
+    "id": "1d000000-0000-0000-0000-00000000001c",
+    "name": "Pictionary",
+    "subtitle": "Draw it before the sand runs out.",
+    "icon": "✏️",
+    "tags": [
+      "Party",
+      "Team"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "playerRange": "4+ players, 2 teams",
+    "countdownTimer": true,
+    "countdownMinutes": 1,
+    "countdownSeconds": 0,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 10,
+    "pointsToReach": 0,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "isTeamGame": true,
+    "numberOfTeams": 2,
+    "teamNames": [
+      "Team 1",
+      "Team 2"
+    ],
+    "scoringReference": [
+      {
+        "label": "Correct guess",
+        "value": "1 pt"
+      }
+    ]
+  },
+  {
+    "id": "1e000000-0000-0000-0000-00000000001d",
+    "name": "Catch Phrase",
+    "subtitle": "Pass before the buzzer catches you.",
+    "icon": "💬",
+    "tags": [
+      "Party",
+      "Team"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "playerRange": "4+ players, 2 teams",
+    "countdownTimer": true,
+    "countdownMinutes": 0,
+    "countdownSeconds": 45,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 7,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "usesSimpleWinLoss": true,
+    "tracksIndividualRounds": false,
+    "isTeamGame": true,
+    "numberOfTeams": 2,
+    "teamNames": [
+      "Team 1",
+      "Team 2"
+    ],
+    "scoringReference": [
+      {
+        "label": "Buzzer sounds on team",
+        "value": "Other team scores 1"
+      }
+    ]
+  },
+  {
+    "id": "1f000000-0000-0000-0000-00000000001e",
+    "name": "Time's Up!",
+    "subtitle": "Three rounds, fewer words each time.",
+    "icon": "⏳",
+    "tags": [
+      "Party",
+      "Team"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "playerRange": "4-12 players, teams",
+    "countdownTimer": true,
+    "countdownMinutes": 0,
+    "countdownSeconds": 30,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 3,
+    "pointsToReach": 0,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "isTeamGame": true,
+    "numberOfTeams": 2,
+    "teamNames": [
+      "Team 1",
+      "Team 2"
+    ],
+    "scoringReference": [
+      {
+        "label": "Each card guessed",
+        "value": "1 pt"
+      }
+    ]
+  },
+  {
+    "id": "21000000-0000-0000-0000-00000000001f",
+    "name": "Heads Up!",
+    "subtitle": "Guess the word on your forehead.",
+    "icon": "🙆",
+    "tags": [
+      "Party",
+      "Team"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playerRange": "2+ players",
+    "countdownTimer": true,
+    "countdownMinutes": 1,
+    "countdownSeconds": 0,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 5,
+    "pointsToReach": 0,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Each correct guess",
+        "value": "1 pt"
+      }
+    ]
+  },
+  {
+    "id": "22000000-0000-0000-0000-000000000020",
+    "name": "Charades",
+    "subtitle": "Act it out, no talking.",
+    "icon": "🎭",
+    "tags": [
+      "Party",
+      "Team"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "playerRange": "4+ players, 2 teams",
+    "countdownTimer": true,
+    "countdownMinutes": 2,
+    "countdownSeconds": 0,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 10,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "isTeamGame": true,
+    "numberOfTeams": 2,
+    "teamNames": [
+      "Team 1",
+      "Team 2"
+    ],
+    "scoringReference": [
+      {
+        "label": "Correct guess in time",
+        "value": "1 pt"
+      }
+    ]
+  },
+  {
+    "id": "23000000-0000-0000-0000-000000000021",
+    "name": "5 Second Rule",
+    "subtitle": "Name three before time's up.",
+    "icon": "⏱️",
+    "tags": [
+      "Party",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playerRange": "3-6 players",
+    "countdownTimer": true,
+    "countdownMinutes": 0,
+    "countdownSeconds": 5,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 10,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Three answers in 5 seconds",
+        "value": "1 pt"
+      }
+    ]
+  },
+  {
+    "id": "24000000-0000-0000-0000-000000000022",
+    "name": "Outburst",
+    "subtitle": "Shout the list before time runs out.",
+    "icon": "📣",
+    "tags": [
+      "Party",
+      "Team"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "playerRange": "4+ players, 2 teams",
+    "countdownTimer": true,
+    "countdownMinutes": 1,
+    "countdownSeconds": 0,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 60,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "isTeamGame": true,
+    "numberOfTeams": 2,
+    "teamNames": [
+      "Team 1",
+      "Team 2"
+    ],
+    "scoringReference": [
+      {
+        "label": "Each correct list answer",
+        "value": "1 pt"
+      }
+    ]
+  },
+  {
+    "id": "25000000-0000-0000-0000-000000000023",
+    "name": "Articulate!",
+    "subtitle": "Describe fast, move around the board.",
+    "icon": "🗣️",
+    "tags": [
+      "Party",
+      "Team"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "playerRange": "4+ players, teams",
+    "countdownTimer": true,
+    "countdownMinutes": 0,
+    "countdownSeconds": 30,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 30,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "isTeamGame": true,
+    "numberOfTeams": 2,
+    "teamNames": [
+      "Team 1",
+      "Team 2"
+    ],
+    "scoringReference": [
+      {
+        "label": "Each correct word in 30s",
+        "value": "1 space"
+      }
+    ]
+  },
+  {
+    "id": "26000000-0000-0000-0000-000000000024",
+    "name": "Anomia",
+    "subtitle": "First to blurt the answer wins the card.",
+    "icon": "⚡",
+    "tags": [
+      "Party",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playerRange": "3-6 players",
+    "countdownTimer": false,
     "winCondition": "Rounds played",
     "numberOfRounds": 1,
     "pointsToReach": 0,
     "scoreDirection": "High wins",
-    "allowNegativeScores": true,
+    "allowNegativeScores": false,
     "autoRotateDealer": false,
-    "tracksIndividualRounds": false
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Each card won",
+        "value": "1 pt"
+      }
+    ]
   },
   {
-  "id":                  "60000000-0000-0000-0000-000000000006",
-  "name":                "Gin Rummy",
-  "numberOfPlayers":     4,
-  "countdownTimer":      false,
-  "winCondition":        "Points reached",
-  "numberOfRounds":      99,
-  "pointsToReach":       100,
-  "scoreDirection":      "High wins",
-  "allowNegativeScores": false,
-  "autoRotateDealer":    true,
-  "minPlayers":          2,
-  "maxPlayers":          6,
-  "playerRange": "2–6 players",
-  "icon": "🍹",
-  "subtitle": "The classic strategic card game"
-
-
-}
+    "id": "27000000-0000-0000-0000-000000000025",
+    "name": "Bananagrams",
+    "subtitle": "Build your grid fastest.",
+    "icon": "🍌",
+    "tags": [
+      "Family",
+      "Party"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "playerRange": "1-8 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 5,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "usesSimpleWinLoss": true,
+    "tracksIndividualRounds": false,
+    "scoringReference": [
+      {
+        "label": "First to use all tiles",
+        "value": "Wins the round"
+      }
+    ]
+  },
+  {
+    "id": "28000000-0000-0000-0000-000000000026",
+    "name": "Telestrations",
+    "subtitle": "Draw, guess, laugh, repeat.",
+    "icon": "🖍️",
+    "tags": [
+      "Party",
+      "Family"
+    ],
+    "numberOfPlayers": 6,
+    "minPlayers": 4,
+    "maxPlayers": 8,
+    "playerRange": "4-8 players",
+    "countdownTimer": true,
+    "countdownMinutes": 1,
+    "countdownSeconds": 0,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 3,
+    "pointsToReach": 0,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Best/funniest guess",
+        "value": "Group vote pts"
+      }
+    ]
+  },
+  {
+    "id": "29000000-0000-0000-0000-000000000027",
+    "name": "Reverse Charades",
+    "subtitle": "The team acts, one person guesses.",
+    "icon": "🔄",
+    "tags": [
+      "Party",
+      "Team"
+    ],
+    "numberOfPlayers": 6,
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "playerRange": "4+ players, teams",
+    "countdownTimer": true,
+    "countdownMinutes": 1,
+    "countdownSeconds": 0,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 10,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "isTeamGame": true,
+    "numberOfTeams": 2,
+    "teamNames": [
+      "Team 1",
+      "Team 2"
+    ],
+    "scoringReference": [
+      {
+        "label": "Each word guessed in time",
+        "value": "1 pt"
+      }
+    ]
+  },
+  {
+    "id": "2a000000-0000-0000-0000-000000000028",
+    "name": "Sequence",
+    "subtitle": "Best-of series on the board.",
+    "icon": "🔗",
+    "tags": [
+      "Board",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "playerRange": "2-12 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 3,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "usesSimpleWinLoss": true,
+    "tracksIndividualRounds": false,
+    "scoringReference": [
+      {
+        "label": "Win a game",
+        "value": "1 toward series"
+      }
+    ]
+  },
+  {
+    "id": "2b000000-0000-0000-0000-000000000029",
+    "name": "Connect Four",
+    "subtitle": "Best-of series, four in a row.",
+    "icon": "🔴",
+    "tags": [
+      "Family",
+      "Strategy"
+    ],
+    "numberOfPlayers": 2,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playerRange": "2 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 3,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "usesSimpleWinLoss": true,
+    "tracksIndividualRounds": false,
+    "scoringReference": [
+      {
+        "label": "Win a game",
+        "value": "1 toward series"
+      }
+    ]
+  },
+  {
+    "id": "2c000000-0000-0000-0000-00000000002a",
+    "name": "Battleship",
+    "subtitle": "Best-of naval series.",
+    "icon": "🚢",
+    "tags": [
+      "Strategy",
+      "Family"
+    ],
+    "numberOfPlayers": 2,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playerRange": "2 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 3,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "usesSimpleWinLoss": true,
+    "tracksIndividualRounds": false,
+    "scoringReference": [
+      {
+        "label": "Sink all enemy ships",
+        "value": "1 toward series"
+      }
+    ]
+  },
+  {
+    "id": "2d000000-0000-0000-0000-00000000002b",
+    "name": "Tic-Tac-Toe",
+    "subtitle": "Best-of series of three-in-a-row.",
+    "icon": "⭕",
+    "tags": [
+      "Family"
+    ],
+    "numberOfPlayers": 2,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playerRange": "2 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 3,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "usesSimpleWinLoss": true,
+    "tracksIndividualRounds": false,
+    "scoringReference": [
+      {
+        "label": "Win a game",
+        "value": "1 toward series"
+      }
+    ]
+  },
+  {
+    "id": "2e000000-0000-0000-0000-00000000002c",
+    "name": "Dots and Boxes",
+    "subtitle": "Close the most boxes.",
+    "icon": "⬛",
+    "tags": [
+      "Family",
+      "Strategy"
+    ],
+    "numberOfPlayers": 2,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playerRange": "2-4 players",
+    "countdownTimer": false,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 1,
+    "pointsToReach": 0,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Each box closed",
+        "value": "1 pt"
+      }
+    ]
+  },
+  {
+    "id": "2f000000-0000-0000-0000-00000000002d",
+    "name": "Exploding Kittens",
+    "subtitle": "Best-of survival series.",
+    "icon": "🐱",
+    "tags": [
+      "Card",
+      "Party"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playerRange": "2-5 players",
+    "countdownTimer": false,
+    "winCondition": "Points reached",
+    "numberOfRounds": 99,
+    "pointsToReach": 3,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": false,
+    "usesSimpleWinLoss": true,
+    "tracksIndividualRounds": false,
+    "scoringReference": [
+      {
+        "label": "Last player standing",
+        "value": "1 toward series"
+      }
+    ]
+  },
+  {
+    "id": "32000000-0000-0000-0000-00000000002f",
+    "name": "Michigan Rummy",
+    "subtitle": "Chips, pots, and going out.",
+    "icon": "🎰",
+    "tags": [
+      "Card",
+      "Family"
+    ],
+    "numberOfPlayers": 4,
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playerRange": "3-8 players",
+    "countdownTimer": false,
+    "winCondition": "Rounds played",
+    "numberOfRounds": 10,
+    "pointsToReach": 0,
+    "scoreDirection": "High wins",
+    "allowNegativeScores": false,
+    "autoRotateDealer": true,
+    "tracksIndividualRounds": true,
+    "scoringReference": [
+      {
+        "label": "Chips on a pot card",
+        "value": "Won by matching card"
+      }
+    ]
+  }
 ]
